@@ -221,6 +221,9 @@ Add this config to settings of VS code
 
 <img width="591" height="474" alt="image" src="https://github.com/user-attachments/assets/0cf035af-a4aa-4984-a362-45f97c89dd55" />
 
+## Use MCP Server in .NET Client Application
+https://github.com/srijonchakraborty/mcp-client-sse
+
 ## 🤝 Contributing
 
 1. Fork the repository
