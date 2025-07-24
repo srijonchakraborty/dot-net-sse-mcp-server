@@ -1,4 +1,4 @@
-# .NET SSE MCP Server - Student Management System
+# .NET SSE MCP Server - Student Information
 
 A modern .NET 9.0 web API that implements the Model Context Protocol (MCP) server with Server-Sent Events (SSE) transport, providing a comprehensive student management system with both REST API endpoints and MCP tools.
 
