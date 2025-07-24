@@ -219,6 +219,7 @@ Add this config to settings of VS code
 ### VS Code Detected the Tools
 <img width="1658" height="860" alt="image" src="https://github.com/user-attachments/assets/4139eb5c-aeaf-413a-b672-81614d77bdeb" />
 
+<img width="591" height="474" alt="image" src="https://github.com/user-attachments/assets/0cf035af-a4aa-4984-a362-45f97c89dd55" />
 
 ## 🤝 Contributing
 
