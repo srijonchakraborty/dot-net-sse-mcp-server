@@ -187,6 +187,38 @@ dotnet run --environment Development
 dotnet build --configuration Release
 dotnet publish --configuration Release
 ```
+## Use MCP Server in VS Code Github Copilot
+Add this config to settings of VS code
+```
+ "mcp": {
+        "inputs": [],
+        "servers": {
+        "Srijon_Student_MCP": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "E:\\Personal Project\\mcptry\\MyFirstMCP\\MyFirstMCP.csproj"
+            ]
+        },
+            "Student_MCP_Remote": {
+            "type": "sse",
+            "url":"http://mcpserversijon.runasp.net/sse",
+            }
+        }   
+    }
+```
+
+### Run in remote server
+<img width="893" height="728" alt="image" src="https://github.com/user-attachments/assets/0d8b2079-40c8-40ba-a77a-b2236194df66" />
+
+### Run in local server from project
+<img width="1297" height="723" alt="image" src="https://github.com/user-attachments/assets/ca135835-99f5-470b-896f-d6f328b96e71" />
+
+### VS Code Detected the Tools
+<img width="1658" height="860" alt="image" src="https://github.com/user-attachments/assets/4139eb5c-aeaf-413a-b672-81614d77bdeb" />
+
 
 ## 🤝 Contributing
 
