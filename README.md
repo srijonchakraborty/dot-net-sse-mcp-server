@@ -66,19 +66,6 @@ The server exposes the following MCP tools:
 | `GetStudentStatistics` | Returns comprehensive statistics | None |
 | `GetStudentsWithFields` | Returns students with specified fields only | `fieldsToInclude` (List<string>) |
 
-### Example MCP Tool Usage
-
-```json
-{
-  "method": "tools/call",
-  "params": {
-    "name": "GetStudentsByMajor",
-    "arguments": {
-      "major": "Computer Science"
-    }
-  }
-}
-```
 
 ## 🌐 REST API Endpoints
 
