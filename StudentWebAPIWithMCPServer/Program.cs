@@ -1,5 +1,6 @@
 using ModelContextProtocol.Protocol;
 using SSEStudentTool.Tools;
+using StudentWebAPIWithMCPServer.Tools;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,8 @@ builder.Services
         mcp.ServerInfo = serverInfo;
     })
     .WithHttpTransport()
-    .WithToolsFromAssembly(typeof(StudentTool).Assembly);
+    .WithToolsFromAssembly(typeof(StudentTool).Assembly)
+    .WithToolsFromAssembly(typeof(TalkWithSwaggerTool).Assembly);
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
