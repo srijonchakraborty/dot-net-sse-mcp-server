@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>https</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>E:\Personal Project\mcp .net client try\SSEStudentTool\StudentASPController\Properties\PublishProfiles\site31028-WebDeploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>E:\Personal Project\Presentation\ALL MCP Project\dot-net-sse-mcp-server\StudentWebAPIWithMCPServer\Properties\PublishProfiles\site31028-WebDeploy2.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
